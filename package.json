@@ -19,6 +19,7 @@
   "devDependencies": {
     "@eslint/js": "^9.0.0",
     "@types/http-errors": "^2.0.4",
+    "@types/jsonwebtoken": "^9.0.6",
     "@types/mongoose": "^5.11.97",
     "@types/node": "^20.12.7",
     "eslint": "^9.0.0",
@@ -37,6 +38,7 @@
     "express": "^4.19.2",
     "http-errors": "^2.0.0",
     "i": "^0.3.7",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.3.1"
   }
 }
