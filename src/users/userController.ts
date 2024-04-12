@@ -46,7 +46,7 @@ const createUser = async (req: Request, res: Response, next: NextFunction) => {
       expiresIn: "7d",
     });
     //response
-    res.json({
+    res.status(201).json({
       accessToken: token,
     });
   } catch (error) {
@@ -54,4 +54,4 @@ const createUser = async (req: Request, res: Response, next: NextFunction) => {
   }
 };
 
-export { createUser };
+export { createUser, loginUser };
